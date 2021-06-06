@@ -1,5 +1,5 @@
 PROGRAM DIGIBOG_3D
-!New version as of 13/05/2020. Minor modifications tracked via the DigiBog 
+!New version as of 06/06/2021. Minor modifications tracked via the DigiBog 
 !GitHub repository.
 
 ! -----------------------------------------------------------------------------

@@ -31,7 +31,9 @@ MODULE hydro_procedures_transmax
   !                               exceeds the ponding layer. The layer marker
   !                               is initialised at 0.
   !-----------------------------------------------------------------------------
-
+  !Jorge A. Ramirez     6/06/21   Groundwater flux applied columns
+  !-----------------------------------------------------------------------------  
+    
   !Declarations
 
   IMPLICIT NONE
