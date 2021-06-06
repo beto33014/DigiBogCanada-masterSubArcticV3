@@ -13,11 +13,11 @@ Description of files in repository:
   *digiBog3d.vfproj:*
 <br>
 ### Input files 
-  *010\_DigiBog\_BB\_IN\_information.txt:* model parameters  
-  020\_DigiBog\_BB\_IN\_net\_rain.txt: weekly net precpitation (cm/yr) = rainfall + snowmelt - evapotranspiration  
-  040\_DigiBog\_BB\_IN\_column\_status.txt:  
-  050\_DigiBog\_BB\_IN\_baltitude.txt:  
-  051\_DigiBog\_BB\_IN\_gs\_temp.txt:    
-  052\_DigiBog\_BB\_IN\_gsBegin.txt:  
-  053\_DigiBog\_BB\_IN\_gsEnd.txt:    
-  054\_DigiBog\_BB\_IN\_gwFlux.txt:  
+  *010\_DigiBog\_BB\_IN\_information.txt*: model parameters  
+  *020\_DigiBog\_BB\_IN\_net\_rain.txt*: weekly net precpitation (cm/yr) = rainfall + snowmelt - evapotranspiration  
+  *040\_DigiBog\_BB\_IN\_column\_status.txt*:  
+  *050\_DigiBog\_BB\_IN\_baltitude.txt*:  
+  *051\_DigiBog\_BB\_IN\_gs\_temp.txt*:    
+  *052\_DigiBog\_BB\_IN\_gsBegin.txt*:  
+  *053\_DigiBog\_BB\_IN\_gsEnd.txt*:    
+  *054\_DigiBog\_BB\_IN\_gwFlux.txt*:  
