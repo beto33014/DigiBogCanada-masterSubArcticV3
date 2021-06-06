@@ -1,6 +1,6 @@
 # DigiBog SubArctic
 
-Modification to DigiBog for subarctic climates which considers growing season temperatures and water tables for calculations of plant litter production and decomposition. This model version considers groundwater flux and is intended to operate at a weekly time step. Detailed information about model development can be found in Ramirez et al. (2022). Model input files for a transect in Canada are provided.
+Modification to DigiBog for subarctic climates which considers growing season temperatures and water tables for calculations of plant litter production and decomposition. This model version considers groundwater flux and is intended to operate at a weekly time step. Detailed information about model development can be found in **Ramirez et al. (2022)**. Model input files for a transect in Canada are provided.
 
 Description of files in repository:
 
