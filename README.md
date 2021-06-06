@@ -20,4 +20,4 @@ Description of files in repository:
   *051\_DigiBog\_BB\_IN\_gs\_temp.txt*: time series of mean growing season temperature (&deg;C)      
   *052\_DigiBog\_BB\_IN\_gsBegin.txt*: time series of week of the year when the growing season begins    
   *053\_DigiBog\_BB\_IN\_gsEnd.txt*: time series of week of the year when the growing season ends     
-  *054\_DigiBog\_BB\_IN\_gwFlux.txt*:  
+  *054\_DigiBog\_BB\_IN\_gwFlux.txt*:  constant rate of growundwater flux (cm/yr) per column
