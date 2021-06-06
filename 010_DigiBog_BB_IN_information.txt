@@ -1,0 +1,27 @@
+0.045      !oxic decay base
+0.0001    !anoxic decay base
+6.2900    !base temperature
+2.5       !Q10 oxic
+2.5       !Q10 anoxic
+0.1       !density
+0.3       !porosity
+31737.45  !K a parameter
+8.0       !K b parameter
+7000      !time extent
+525600    !annual minutes
+1         !output interval
+3         !x extent
+75        !y extent
+600.0     !spatial step
+0.25      !pond thickness
+1         !time step multiplier (for use with variable time step)
+50        !layer lumping exclusion
+0.2       !layer lumping threshold (thickness)
+0.05       !oxic recalcitrance exponent
+0.05       !anoxic recalcitrance exponent
+10.0      !mineral soil thickness
+3         !net rain interval (annual = 1, monthly = 2, weekly = 3)
+5.0       !minimum time step
+15.0       !maximum time step
+200       !time in years to start increasing the time step
+2000      !time in years at which the max time step is reached
