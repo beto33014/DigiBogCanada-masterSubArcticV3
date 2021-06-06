@@ -130,8 +130,7 @@ PROGRAM DIGIBOG_3D
   !Jorge A. Ramirez     6/06/21        Modifications to DigiBog were made for 
   !                                    subarctic climates by modifying plant 
   !                                    litter production and peat decomposition.
-  !                                    Added inputs include snowmelt and 
-  !                                    groundwater flux. 
+  !                                    Groundwater flux as additional input. 
   !----------------------------------------------------------------------------- 
   !Code description.
   !Language: Fortran 95.
