@@ -13,11 +13,11 @@ Description of files in repository:
   *digiBog3d.vfproj:* visual studio 2019 project
 <br>
 ### Input files 
-  *010\_DigiBog\_BB\_IN\_information.txt*: model parameters  
-  *020\_DigiBog\_BB\_IN\_net\_rain.txt*: weekly net precpitation (cm/yr) = rainfall + snowmelt - evapotranspiration  
-  *040\_DigiBog\_BB\_IN\_column\_status.txt*: designate active columns and boundary conditions  
-  *050\_DigiBog\_BB\_IN\_baltitude.txt*: elevation of mineral soil layer (cm)   
-  *051\_DigiBog\_BB\_IN\_gs\_temp.txt*: time series of mean growing season temperature (&deg;C)      
-  *052\_DigiBog\_BB\_IN\_gsBegin.txt*: time series of week of the year when the growing season begins    
-  *053\_DigiBog\_BB\_IN\_gsEnd.txt*: time series of week of the year when the growing season ends     
-  *054\_DigiBog\_BB\_IN\_gwFlux.txt*:  constant rate of growundwater flux (cm/yr) per column
+  *010\_DigiBog\_BB\_IN\_information.txt:* model parameters  
+  *020\_DigiBog\_BB\_IN\_net\_rain.txt:* weekly net precpitation (cm/yr) = rainfall + snowmelt - evapotranspiration  
+  *040\_DigiBog\_BB\_IN\_column\_status.txt:* designate active columns and boundary conditions  
+  *050\_DigiBog\_BB\_IN\_baltitude.txt:* elevation of mineral soil layer (cm)   
+  *051\_DigiBog\_BB\_IN\_gs\_temp.txt:* time series of mean growing season temperature (&deg;C)      
+  *052\_DigiBog\_BB\_IN\_gsBegin.txt:* time series of week of the year when the growing season begins    
+  *053\_DigiBog\_BB\_IN\_gsEnd.txt:* time series of week of the year when the growing season ends     
+  *054\_DigiBog\_BB\_IN\_gwFlux.txt:*  constant rate of growundwater flux (cm/yr) per column
