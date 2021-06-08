@@ -1209,10 +1209,14 @@ PROGRAM DIGIBOG_3D
           IF (col_wt_depth_av_su(x, y) > 66.8) THEN !using average summer (growing season) water tables
             layer_mass(x, y, (no_layers(x,y) - 1), 1) = 0.0000001
           ELSE
+            !this is the ponding depth (cm) when summer water tables are -ve.
+            IF (col_wt_depth_av_su(x, y) < 0) THEN
+              col_wt_depth_av_su(x, y) = 0
+            END IF
             layer_mass(x, y, (no_layers(x,y) - 1), 1) =& !using average summer (growing season) water tables
                      ((9.3 + (1.33 * col_wt_depth_av_su(x, y)) - (0.022&
-                       * (col_wt_depth_av_su(x, y)**2.0)))**2.0) * 0.0001&
-                       *((0.1575 * gsTemperature) + 0.009132) * ((growingSeasonEnd - growingSeasonBegin) / 52.0)!changed temperature to mean growing season temperature and production reduced according to length of growing season
+                     * (col_wt_depth_av_su(x, y)**2.0)))**2.0) * 0.0001&
+                     *((0.1575 * gsTemperature) + 0.009132) * ((growingSeasonEnd - growingSeasonBegin) / 52.0)!changed temperature to mean growing season temperature and production reduced according to length of growing season
           END IF
           WRITE(230, '(20F20.8)') layer_mass(x, y, (no_layers(x,y) - 1), 1)  !save annual production to file
           !Layer initial mass of new top layer = layer mass of top layer
