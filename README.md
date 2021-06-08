@@ -10,7 +10,7 @@ Description of files in repository:
 <br>
 
 ### Development environment
-  *digiBog3d.vfproj:* visual studio 2019 project
+  *digiBog3d.sln:* visual studio 2019 project
 <br>
 ### Input files 
   *010\_DigiBog\_BB\_IN\_information.txt:* model parameters  
